@@ -1,0 +1,305 @@
+body {
+    background-color: #161616;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.hero {
+    background-image: url(../img/Itachi-bg.png);
+    border-image: fill 0 linear-gradient(#0001, #000);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hero-title {
+    color: whitesmoke;
+    font-size: 50px;
+    padding-top: 100px;
+    padding-left: 50px;
+    margin-top: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+ }
+ .text {
+    margin-left: 30px;
+    padding-left: 20px;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+ }
+p {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item {
+    /* border: 1px solid #ccc; */
+    margin: 2px;
+    /* margin: 10px; */
+    /* padding: 10px; */
+    width: 241px;
+}
+.img-ani {       
+    max-width: 100%;
+}
+/* .item:hover {
+    cursor: pointer;
+    width: 250px;
+    transition: .3s;
+} */
+/* .img-ani:hover {       
+    width: 90%;
+} */
+.ani-title {
+    color: wheat;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Exo", sans-serif;
+}
+
+.header {
+    border-bottom: 2px solid rgb(153, 147, 147);
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+}
+.page-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(206, 195, 175);
+    font-family: "Exo", sans-serif;
+    font-size: 40px;
+    text-shadow: 6px -2px 2px rgb(228, 21, 21);
+    /* text-shadow: 5px -8px 5px rgb(110, 96, 96); */
+}
+.search-box {
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 14px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    margin-left: 430px;
+    margin-top: 50px;
+    height: 35px;
+    width: 300px;
+}
+.search-box:hover {
+    cursor: pointer;
+}
+
+.btn-submit {
+    margin-top: 50px;
+    height: 35px;
+    width: 75px;
+    border-radius: 12px;
+    margin-left: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: hidden;
+}
+.btn-submit:hover {
+    color: rgb(255, 255, 255);
+    background-color: red;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn-2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 400px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-style: none;
+    background-color: rgb(158, 52, 33);
+} 
+.btn-2:hover {
+    background-color: rgb(160, 125, 28);
+    cursor: pointer;
+}
+
+.mid-btn {
+    width: 100%;
+}
+.btn-3 {
+    color: whitesmoke;
+    border-style: none; 
+    border-radius: 10px;    
+    margin-left: 140px;
+    margin-bottom: 30px;
+    background-color: rgb(236, 71, 26);
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-3:hover {
+    background-color: rgb(196, 58, 58);
+}
+.last {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.menu-wrapper {
+    width: 100%;
+    margin-left: -49px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: "Exo", sans-serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    text-decoration: none;
+    /* font-weight: bold; */
+
+}
+nav ul li a:hover {
+    cursor: pointer;
+    color: red;
+    transition: .3s;
+    text-decoration: underline; 
+}
+.plus {
+    margin-left: 5px;
+    color: rgb(238, 38, 24);
+    font-size:70px;
+}
+
+h3 {
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ccc;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 100;
+}
+
+
+.search-icon {
+  width: 200px;
+  height: 200px;
+}
+
+.title-tag {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ccc;
+    font-size: 25px;    
+    margin-bottom: 10px;
+    font-weight: 100;
+}   
+
+.logo-path {
+    text-decoration: none;
+}
+
+.genres-detail {
+    color: #ccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+
+    
+.search-container {
+    margin-top: 40px;
+    margin-left: 430px;
+    width: 100%;
+    float: right;
+}
+
+.search-bar {
+    width: 85%;
+    height: 30px;
+    margin-left: 15px;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 15px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;    
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 15px;
+    color: #ccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+::placeholder {
+    color: #ccc;
+}
+
+/* .search-bar button img {
+    width: 30px;
+} */
+
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    /* background: rgba(212, 193, 193, 0.404); */
+    background-color: #252424;
+    cursor: pointer;
+}
+
+.btn-icon { 
+    height: 20px;
+    width: 20px;
+}   
+
+button :hover{
+    background-color: red;
+}
+
+
+
+
